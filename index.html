@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Station & News Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TV Station & News Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#tv-section">TV Channels</a></li>
+                <li><a href="#content-section">News & Stories</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="tv-section">
+            <h2>Live TV</h2>
+            <div class="tv-container">
+                <div class="channel-list" id="channel-list">
+                    <!-- Channels will be injected here -->
+                </div>
+                <div class="tv-player">
+                    <iframe id="tv-iframe" width="100%" height="400" src="" title="TV Player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="content-section">
+            <h2>Latest Content</h2>
+            <div class="content-categories">
+                <div class="category" id="news-container">
+                    <h3>News</h3>
+                    <!-- News items will be injected here -->
+                </div>
+                <div class="category" id="stories-container">
+                    <h3>Stories</h3>
+                    <!-- Story items will be injected here -->
+                </div>
+                <div class="category" id="magazines-container">
+                    <h3>Magazines</h3>
+                    <!-- Magazine items will be injected here -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 TV Station & News Hub</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
