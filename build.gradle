@@ -1,0 +1,21 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.chyke.online'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.chyke.online"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+dependencies {
+    // Add ad network dependencies here when ready
+    // implementation 'com.google.android.gms:play-services-ads:23.0.0'
+}
